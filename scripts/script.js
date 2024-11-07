@@ -19,6 +19,6 @@ function calcular(){
         document.querySelector('.resultado').innerHTML = eval(resultado)
     }else{
         document.querySelector('.resultado').innerHTML = 'error'
-        document.querySelector('.resultado').style.textAlign = 'center'
+        
     }
 }
